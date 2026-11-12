@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "query": "How should banks protect customer information?",
+    "expected_source": "banking_policy.txt",
+    "expected_page": 1
+  },
+  {
+    "id": 2,
+    "query": "How should customer complaints be handled?",
+    "expected_source": "banking_policy.txt",
+    "expected_page": 1
+  },
+  {
+    "id": 3,
+    "query": "How must suspicious banking transactions be handled?",
+    "expected_source": "banking_policy.txt",
+    "expected_page": 1
+  },
+  {
+    "id": 4,
+    "query": "What documents are required for customer identity verification?",
+    "expected_source": "compliance_manual.docx",
+    "expected_page": 1
+  },
+  {
+    "id": 5,
+    "query": "How should compliance concerns be reported?",
+    "expected_source": "compliance_manual.docx",
+    "expected_page": 1
+  },
+  {
+    "id": 6,
+    "query": "How should customer records be maintained?",
+    "expected_source": "compliance_manual.docx",
+    "expected_page": 1
+  },
+  {
+    "id": 7,
+    "query": "What activities are included in employee onboarding?",
+    "expected_source": "employee_manual.docx",
+    "expected_page": 1
+  },
+  {
+    "id": 8,
+    "query": "How should employees report late arrivals?",
+    "expected_source": "employee_manual.docx",
+    "expected_page": 1
+  },
+  {
+    "id": 9,
+    "query": "Why are employee training programs important?",
+    "expected_source": "employee_manual.docx",
+    "expected_page": 1
+  },
+  {
+    "id": 10,
+    "query": "How should employees submit planned leave requests?",
+    "expected_source": "policy.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": 11,
+    "query": "What should employees do about conflicts of interest?",
+    "expected_source": "policy.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": 12,
+    "query": "Who is allowed to access company systems?",
+    "expected_source": "security_manual.pdf",
+    "expected_page": 1
+  },
+  {
+    "id": 13,
+    "query": "What are the rules for creating and sharing passwords?",
+    "expected_source": "security_manual.pdf",
+    "expected_page": 2
+  },
+  {
+    "id": 14,
+    "query": "How should sensitive company files be stored?",
+    "expected_source": "security_manual.pdf",
+    "expected_page": 3
+  },
+  {
+    "id": 15,
+    "query": "Who should employees inform about a suspected data breach?",
+    "expected_source": "security_manual.pdf",
+    "expected_page": 3
+  }
+]

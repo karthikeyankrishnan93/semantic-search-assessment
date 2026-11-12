@@ -1,0 +1,39 @@
+ID 1: Found at rank 3 | Expected: banking_policy.txt, page 1
+ID 2: Found at rank 2 | Expected: banking_policy.txt, page 1
+ID 3: Found at rank 1 | Expected: banking_policy.txt, page 1
+ID 4: Found at rank 1 | Expected: compliance_manual.docx, page 1
+ID 5: Found at rank 1 | Expected: compliance_manual.docx, page 1
+ID 6: Found at rank 1 | Expected: compliance_manual.docx, page 1
+ID 7: Found at rank 1 | Expected: employee_manual.docx, page 1
+ID 8: Found at rank 1 | Expected: employee_manual.docx, page 1
+ID 9: Found at rank 1 | Expected: employee_manual.docx, page 1
+ID 10: Found at rank 1 | Expected: policy.pdf, page 2
+ID 11: Found at rank 1 | Expected: policy.pdf, page 3
+ID 12: Found at rank 1 | Expected: security_manual.pdf, page 1
+ID 13: Found at rank 1 | Expected: security_manual.pdf, page 2
+ID 14: Found at rank 1 | Expected: security_manual.pdf, page 3
+ID 15: Found at rank 1 | Expected: security_manual.pdf, page 3
+
+========== RETRIEVAL EVALUATION SUMMARY ==========
+Total queries: 15
+Hit@1: 0.8667 (13/15)
+Hit@3: 1.0000 (15/15)
+Hit@5: 1.0000 (15/15)
+MRR: 0.9222
+CONFIGURATION COMPARISON
+
+Configuration 1: Chunk size 128
+Total chunks: 10
+Hit@1: 100%
+Hit@3: 100%
+
+Configuration 2: Chunk size 512
+Total chunks: 9
+Hit@1: 100%
+Hit@3: 100%
+
+Decision:
+Chunk size 512 is preferred for this experiment because it
+achieved the same retrieval accuracy with fewer chunks.
+This result is based on the current small document dataset.
+
